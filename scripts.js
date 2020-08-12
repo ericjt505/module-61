@@ -1,4 +1,4 @@
-const button = document.querySelection('button');
+const button = document.querySelector('button');
 
 button.onclick = function() {
   let name = prompt('What is your name');
